@@ -1,0 +1,1 @@
+cmd_/home/final/SO2_P1/Modulo1/intercept.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds  --build-id  -o /home/final/SO2_P1/Modulo1/intercept.ko /home/final/SO2_P1/Modulo1/intercept.o /home/final/SO2_P1/Modulo1/intercept.mod.o ;  true

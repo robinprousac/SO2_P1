@@ -18,7 +18,7 @@ MODULE_LICENSE("GPL");
 // tomar la direccion de sys_call_table
 //realizar cada vez que se reinicie el sistema puesto que la direccion cambia
 
-unsigned long *sys_call_table = (unsigned long*)0xffffffffb78001c0;
+unsigned long *sys_call_table = (unsigned long*)0xffffffffa5e001a0;
 
 //puntero de la funcion del sys_unlink
 

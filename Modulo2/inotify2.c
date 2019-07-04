@@ -24,7 +24,7 @@ int main( int argc, char **argv )
   }
  
   /* add watch to starting directory */
-  wd = inotify_add_watch(fd, "/home/proy_v0", IN_CREATE | IN_MODIFY | IN_DELETE); 
+  wd = inotify_add_watch(fd, "/", IN_CREATE | IN_MODIFY | IN_DELETE); 
  
   if (wd == -1)
     {
