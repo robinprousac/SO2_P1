@@ -28,11 +28,11 @@ int main( int argc, char **argv )
  
   if (wd == -1)
     {
-      printf("Couldn't add watch to %s\n","/home/joe");
+      printf("Couldn't add watch to %s\n","/");
     }
   else
     {
-      printf("Watching:: %s\n","/home/joe");
+      printf("Watching:: %s\n","/");
     }
  
          FILE *fptr;
